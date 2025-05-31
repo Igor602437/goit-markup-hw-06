@@ -213,11 +213,7 @@ img {
   background-color: var(--navy-blue);
   padding: 188px 0;
   max-width: 1440px;
-  background-image: linear-gradient(
-      to bottom,
-      var(--grey),
-      var(--grey))
-    ),
+  background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
     url(../images/people-office-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -593,8 +589,6 @@ img {
   color: var(--navy-blue);
 }
 
-.review-form {
-}
 .review-form-field-wrapper {
   margin-bottom: 8px;
 }
@@ -681,13 +675,6 @@ img {
   margin-bottom: 24px;
 }
 
-.review-form-policy-checkbox {
-}
-.visually-hidden {
-}
-.review-form-checkbox-label {
-}
-
 .review-form-custom-checkbox {
   display: inline-flex;
   justify-content: center;
@@ -711,9 +698,6 @@ img {
   background-color: var(--ocean);
   border-color: var(--ocean);
   fill: var(--cloud);
-}
-
-.review-form-custom-checkbox-icon {
 }
 
 .privacy-policy-link {
