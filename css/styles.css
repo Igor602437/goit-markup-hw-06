@@ -164,8 +164,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
   }
   .sctr-nav {
     display: flex;
@@ -173,6 +171,10 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .page-header .container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
   .mobile-menu-open-btn {
     line-height: 0;
     stroke: #2f2f37;
@@ -191,14 +193,15 @@ body {
   }
   .nav-list {
     display: flex;
+    align-items: center;
     column-gap: 40px;
   }
   .nav-menu-item {
+    position: relative;
     font-weight: 500;
+    padding: 24px 0;
   }
   .nav-menu {
-    position: relative;
-    padding: 24px 0;
     color: var(--navy-blue);
     transition: color var(--primary-transition);
   }
@@ -257,6 +260,9 @@ body {
   .addres-item {
     margin-bottom: 0;
     padding: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
 /* ================ / HEADER STYLES ================ */
