@@ -583,17 +583,17 @@ body {
 /* =================== FOOTER STYLES ================== */
 .ftr {
   background: var(--navy-blue);
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .ftr .container {
   display: flex;
   flex-direction: column;
   text-align: center;
   row-gap: 72px;
-  padding-top: 96px;
-  padding-bottom: 96px;
 }
 .logo.footer {
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   display: inline-block;
 }
 .letter {
@@ -606,7 +606,7 @@ body {
 .footer-description {
   font-weight: 500;
   color: var(--white);
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .social-media .social-list {
@@ -621,11 +621,11 @@ body {
 .subscribe-text {
   font-weight: 500;
   color: var(--white);
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 .subscribe-block {
   display: block;
-  margin-bottom: 16px;
+  /* padding-bottom: 16px; */
 }
 .subscribe-form-input {
   border: 1px solid var(--white);
@@ -640,10 +640,19 @@ body {
   color: var(--white);
   opacity: 0.6;
   padding-left: 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 .subscribe-form-input::placeholder {
   color: var(--white);
+}
+.subscribe-form {
+  /* padding-bottom: 16px; */
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 .subscribe-button {
   display: flex;
@@ -684,9 +693,10 @@ body {
     margin-bottom: 0;
   }
   .subscribe-form {
-    display: flex;
+    /* display: flex; */
+    flex-direction: row;
     align-items: center;
-    column-gap: 24px;
+    gap: 24px;
   }
   .subscribe-form-input {
     width: 264px;
@@ -780,7 +790,7 @@ body {
   color: var(--navy-blue);
 }
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 .comment-wrapper {
   margin-bottom: 16px;
@@ -843,6 +853,8 @@ body {
 }
 .review-form-checkbox-wrapper {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -850,7 +862,7 @@ body {
   margin-bottom: 24px;
 }
 .review-form-custom-checkbox {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -860,7 +872,7 @@ body {
   cursor: pointer;
   outline: transparent;
   fill: transparent;
-  margin-right: 8px;
+  /* margin-right: 8px; */
   transition: background-color var(--primary-transition),
     border var(--primary-transition), fill var(--primary-transition);
 }
@@ -871,6 +883,16 @@ body {
   background-color: var(--ocean);
   border-color: var(--ocean);
   fill: var(--cloud);
+}
+.review-form-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.policy-blok-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .privacy-policy-link {
   line-height: 1.33;
@@ -903,6 +925,10 @@ body {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px;
+  }
+  .policy-blok-text {
+    flex-direction: row;
+    align-items: center;
   }
 }
 
