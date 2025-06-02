@@ -5,9 +5,9 @@
 .sect-portfl,
 .ftr,
 .backdrop,  
-.mobile-menu*/ {
+.mobile-menu {
   display: none;
-}
+}*/
 
 /* ================ VARIABLES ================ */
 :root {
@@ -916,7 +916,6 @@ body {
   .mobile-menu {
     position: fixed;
     top: 0;
-    /* max-width: 767px; */
     left: 0;
     z-index: 999999;
     width: 100%;
@@ -986,6 +985,12 @@ body {
   }
   .social-list mobile {
     margin-top: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
   }
 }
 /* ===================/ MOBILE MENU =================== */
