@@ -646,9 +646,6 @@ body {
   color: var(--white);
 }
 .subscribe-form {
-  /* padding-bottom: 16px; */
-}
-.subscribe-form {
   display: flex;
   flex-direction: column;
   align-items: center;
