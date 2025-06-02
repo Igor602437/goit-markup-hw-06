@@ -886,11 +886,11 @@ body {
   align-items: center;
   gap: 8px;
 }
-.policy-blok-text {
+/* .policy-blok-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
+} */
 .privacy-policy-link {
   line-height: 1.33;
   text-decoration: underline;
@@ -923,10 +923,10 @@ body {
     min-height: 584px;
     padding: 72px 24px 24px;
   }
-  .policy-blok-text {
+  /* .policy-blok-text {
     flex-direction: row;
     align-items: center;
-  }
+  } */
 }
 
 @media screen and (min-width: 1158px) {
