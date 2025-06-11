@@ -172,7 +172,7 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
-  .page-header .container {
+  .page-header {
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -232,7 +232,7 @@ body {
     margin-left: auto;
   }
   .addres-item {
-    margin-bottom: 12px;
+    padding-bottom: 12px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -280,7 +280,7 @@ body {
   background-size: cover;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 96px;
+  /* margin-bottom: 96px; */
 }
 @media screen and (min-resolution: 192dpi) {
   .sect-head {
@@ -342,7 +342,7 @@ body {
     max-width: 1440px;
     background-image: linear-gradient(to bottom, var(--grey), var(--grey)),
       url(../images/hero/hero-bg-dt.jpg);
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
   }
   @media screen and (min-resolution: 192dpi) {
     .sect-head {
@@ -361,7 +361,8 @@ body {
   display: none;
 }
 .sect-princp {
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .page-title-principles {
   font-weight: 700;
@@ -397,6 +398,10 @@ body {
   }
 }
 @media screen and (min-width: 1158px) {
+  .sect-princp {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .princp-list {
     flex-wrap: nowrap;
   }
@@ -702,6 +707,10 @@ body {
 }
 
 @media screen and (min-width: 1158px) {
+  .ftr {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .ftr .container {
     padding-left: 16px;
     column-gap: 0;
